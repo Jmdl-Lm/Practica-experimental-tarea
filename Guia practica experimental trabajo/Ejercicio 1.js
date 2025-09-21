@@ -5,12 +5,12 @@
           //Leer edad2
           //Mostrar "Ingrese la edad del tercer hermano:"
           //Leer edad3
-          //edadMayor ← máximo entre edad1, edad2 y edad3
+          //edadMayor = máximo entre edad1, edad2 y edad3
           //Si edad1 = edad2 Y edad2 = edad3 Entonces
           //Mostrar "Los tres hermanos tienen la misma edad"
-          //Sino Si (edad1 = edad2 Y edad2 ≠ edad3) 
-          //O (edad1 = edad3 Y edad1 ≠ edad2)
-          //O (edad2 = edad3 Y edad2 ≠ edad1) Entonces
+          //Sino Si (edad1 = edad2 Y edad2 != edad3) 
+          //O (edad1 = edad3 Y edad1 != edad2)
+          //O (edad2 = edad3 Y edad2 != edad1) Entonces
           //Mostrar "Dos hermanos tienen la edad más alta con edadMayor años"
           //Sino
           //Mostrar "El hermano mayor tiene edadMayor años"
@@ -28,3 +28,4 @@ if (edad1 === edad2 && edad2 === edad3) {
 } else {
     alert(`El hermano mayor tiene ${edadMayor} años`)
 }
+
