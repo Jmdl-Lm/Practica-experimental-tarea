@@ -8,13 +8,13 @@
           // Si usuarios >= 100
           // valorPorUsuario = 5
           // vf = usuarios * valorPorUsuario
-          // else if (usuarios >= 50 y usuarios <= 99)
+          // sino si (usuarios >= 50 y usuarios <= 99)
           // valorPorUsuario = 6
           // vf = usuarios * valorPorUsuario
-          // else if (usuarios >= 30 y usuarios <= 49)
+          // sino si (usuarios >= 30 y usuarios <= 49)
           // valorPorUsuario = 8
           // vf = usuarios * valorPorUsuario
-          // else
+          // sino
           // vf = 300
           // valorPorUsuario = vf / usuarios
           // Mostrar "El valor total a pagar del grupo i es de $vf y por persona es de $valorPorUsuario"
@@ -39,4 +39,5 @@ for(let i = 1; i <= N; i++){
     valorPorUsuario = (vf/usuarios).toFixed(2)
     }
 alert(`El valor total a pagar del grupo ${i} es de $${vf} y por persona es de $${valorPorUsuario}`)
+
 }
