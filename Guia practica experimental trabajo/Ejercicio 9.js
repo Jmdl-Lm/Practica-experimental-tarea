@@ -3,7 +3,7 @@
           // Leer N
           // c = 1
           // i = 0
-          // Para i desde 0 hasta N - 1 hacer
+          // Para i desde 0 hasta N hacer
           // Mostrar "Ingrese el precio inicial del celular c:"
           // Leer precioInicial
           // Mostrar "Ingrese la marca del celular:"
@@ -44,4 +44,5 @@ if (marcaCel[i] === "A" && capacidad[i] === 64){
 }
 alert(`El valor final del celular ${c} es de $${precioFinal[i].toFixed(2)}`)
 c++
+
 }
