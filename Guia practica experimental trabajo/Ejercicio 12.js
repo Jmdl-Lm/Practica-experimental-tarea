@@ -1,9 +1,9 @@
-//Entrada: N (leer), usuarios[] (leer), valorPorUsuario[] (asignar), vf[] (calcular), c (asignar), i(asignar)
+//Entrada: N (leer), usuarios (leer), valorPorUsuario (asignar), vf (calcular), c (asignar), i(asignar)
 //Proceso: Mostrar "Ingrese el número de grupos:"
           // Leer N
           // c = 1
           // i = 0
-          // Para i desde 0 hasta N - 1 hacer
+          // Para i desde 0 hasta N hacer
           // Mostrar "Ingrese el número de usuarios del grupo c:"
           // Leer usuarios[i]
           // Si usuarios[i] >= 100
@@ -42,4 +42,5 @@ for(let i = 0; i < N; i++){
     }
 alert(`El valor total a pagar del grupo ${c} es de $${vf[i]} y por persona es de $${valorPorUsuario[i]}`)
 c++
+
 }
